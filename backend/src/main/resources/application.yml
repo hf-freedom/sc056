@@ -1,0 +1,14 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: auction-system
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+    time-zone: GMT+8
+
+auction:
+  balance-payment-hours: 24
+  scheduled-check-interval-seconds: 10
